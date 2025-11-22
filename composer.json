@@ -13,7 +13,7 @@
     }
   ],
   "support": {
-    "email": ""
+    "email": "support@proudcommerce.com"
   },
   "require": {
     "oxid-esales/oxideshop-ce": "^6.0"
