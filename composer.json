@@ -1,0 +1,32 @@
+{
+  "name": "proudcommerce/voucherlimit",
+  "description": "Begrenzung von Gutscheinen auf einen maximalen Einkaufswert.",
+  "type": "oxideshop-module",
+  "license": [
+    "proprietary"
+  ],
+  "homepage": "https://github.com/proudcommerce",
+  "author": [
+    {
+      "name": "",
+      "homepage": "https://github.com/proudcommerce"
+    }
+  ],
+  "support": {
+    "email": ""
+  },
+  "require": {
+    "oxid-esales/oxideshop-ce": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProudCommerce\\VoucherLimit\\": "../../../source/modules/pc/voucherlimit"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "pc/voucherlimit"
+    }
+  }
+}
+
